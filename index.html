@@ -10,11 +10,13 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a href="#cover" class="header__link header__link_active"> Главная </a>
+            <a href="#cover" class="header__link header__link_active">
+              Главная
+            </a>
           </li>
           <li class="header__links-list-item">
             <a href="#lots" class="header__link"> Посмотреть лоты </a>
@@ -25,7 +27,7 @@
         </ul>
       </nav>
       <div class="header__logo">
-        <a href="">
+        <a href="#header">
           <img
             src="./images/logo-black.svg"
             alt="темный логотип ОНО ТЕБЕ НАДО"
@@ -70,14 +72,14 @@
         <h2 class="lots__heading">лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <a href="" class="card-link">
+            <a href="#header" class="card-link">
               <article class="card card_type_film">
                 <div class="overlay">
                   <!-- 
                     здесь использовал дополнительный див, т.к. оверлей стоит не в абсолюте
                     и не получилось вставить текст нормально поверх оверлея
                   -->
-                  <div class="lots__card-content"> 
+                  <div class="lots__card-content">
                     <h4 class="card__title">
                       Фильм режиссёра, который бросил киношколу
                     </h4>
@@ -92,7 +94,7 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a href="" class="card-link">
+            <a href="#header" class="card-link">
               <article class="card card_type_book">
                 <div class="overlay">
                   <div class="lots__card-content">
@@ -114,7 +116,7 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a href="" class="card-link">
+            <a href="#header" class="card-link">
               <article class="card card_type_picture">
                 <div class="overlay">
                   <div class="lots__card-content">
@@ -135,7 +137,7 @@
             </a>
           </li>
         </ul>
-        <a href="" class="lots__look-more-link">посмотреть больше</a>
+        <a href="#header" class="lots__look-more-link">посмотреть больше</a>
       </section>
       <section class="about" id="about">
         <div class="about__logo">
@@ -191,20 +193,36 @@
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a href="" class="footer__social-link">
-            <img src="../images/yt.svg" alt="логотип youtube" class="footer__social-icon" />
+          <a
+            href="https://www.youtube.com/"
+            class="footer__social-link"
+            target="_blank"
+          >
+            <img
+              src="../images/yt.svg"
+              alt="логотип ютуб"
+              class="footer__social-icon"
+            />
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a href="" class="footer__social-link">
-            <img src="../images/vk.svg" alt="логотип вконтакте" class="footer__social-icon" />
+          <a href="https://vk.com/" class="footer__social-link" target="_blank">
+            <img
+              src="../images/vk.svg"
+              alt="логотип вконтакте"
+              class="footer__social-icon"
+            />
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a href="" class="footer__social-link">
+          <a
+            href="https://pinterest.com/"
+            class="footer__social-link"
+            target="_blank"
+          >
             <img
               src="../images/pinterest.svg"
-              alt="логотип pinterest"
+              alt="логотип пинтерест"
               class="footer__social-icon"
             />
           </a>

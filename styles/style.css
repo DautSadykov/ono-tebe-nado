@@ -1,3 +1,14 @@
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.address {
+    font-style: normal;
+    text-underline-offset: 3px;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -42,11 +53,6 @@
     height: 105px;
 }
 
-.address {
-    font-style: normal;
-    text-underline-offset: 3px;
-}
-
 .header__address {
     line-height: 24px;
     letter-spacing: 0.15px;
@@ -58,12 +64,6 @@
     background-size: cover;
     background-position: center;
     color: white;
-}
-
-.overlay {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cover__title {
