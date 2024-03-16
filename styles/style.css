@@ -141,6 +141,8 @@
     display: flex;
     justify-content: space-between;
     color: white;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
 .lots__card-list-item {
