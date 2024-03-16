@@ -1,6 +1,7 @@
 .overlay {
     position: absolute;
-    z-index: -1;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
@@ -62,7 +63,6 @@
 
 .cover {
     position: relative;
-    z-index: -2;
     min-height: 757px;
     background-image: url('../images/cover.jpg');
     background-size: cover;
@@ -71,6 +71,7 @@
 }
 
 .cover__title {
+    position: relative;
     width: 100%;
     padding: 165px 50px 0;
     font-size: 100px;
@@ -85,7 +86,6 @@
 }
 
 .aligned-text_center {
-    /* padding-right: 23px; */
     text-align: center;
 }
 
@@ -102,6 +102,7 @@
 }
 
 .cover__description {
+    position: relative;
     display: flex;
     margin-top: 123px;
     align-items: center;
@@ -157,7 +158,6 @@
 
 .card {
     position: relative;
-    z-index: -2;
     height: 100%;
     width: 100%;
     background-position: center;
@@ -177,6 +177,7 @@
 }
 
 .card__content {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
